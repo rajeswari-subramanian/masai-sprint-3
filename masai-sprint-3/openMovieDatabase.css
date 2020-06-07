@@ -1,0 +1,246 @@
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: darkslategray;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #container1 {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    #container2 {
+        margin: 10px auto;
+        text-align: center;
+        color: silver;
+        font-style: italic;
+        font-size: xx-large;
+    }
+
+    label,
+    input,
+    button {
+        display: inline-block;
+        margin: 20px;
+        font-weight: bolder;
+        height: 30px;
+        width: 300px;
+    }
+
+    label {
+        font-size: xx-large;
+        text-align: right;
+        color: darkseagreen;
+    }
+
+    button {
+        background-color: darkseagreen;
+    }
+
+    #divxx img {
+        width: 200px;
+        height: 200px;
+        padding: 0px 0px 0px 110px
+    }
+
+    p {
+        white-space: pre-line;
+    }
+
+    #movieT {
+        font-size: larger;
+        font-style: italic;
+        background-color: chocolate;
+    }
+
+    #divxx {
+        display: flex;
+        width: 800px;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+        color: silver;
+        margin: auto;
+
+    }
+
+    #divxx div {
+        flex-basis: 50%;
+        padding: 10px;
+    }
+
+    #divxx div:nth-of-type(2) {
+        text-align: left;
+    }
+
+    a {
+        color: silver;
+        margin: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: darkslategray;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #container1 {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    #container2 {
+        margin: 10px auto;
+        text-align: center;
+        color: silver;
+        font-style: italic;
+        font-size: xx-large;
+    }
+
+    label,
+    input,
+    button {
+        display: inline-block;
+        margin: 20px;
+        font-weight: bolder;
+        height: 30px;
+        width: 300px;
+    }
+
+    label {
+        font-size: xx-large;
+        text-align: right;
+        color: darkseagreen;
+    }
+
+    button {
+        background-color: darkseagreen;
+    }
+
+    #divxx img {
+        width: 200px;
+        height: 200px;
+        padding: 0px 0px 0px 110px
+    }
+
+    p {
+        white-space: pre-line;
+    }
+
+    #movieT {
+        font-size: larger;
+        font-style: italic;
+        background-color: chocolate;
+    }
+
+    #divxx {
+        display: flex;
+        width: 800px;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+        color: silver;
+        margin: auto;
+
+    }
+
+    #divxx div {
+        flex-basis: 50%;
+        padding: 10px;
+    }
+
+    #divxx div:nth-of-type(2) {
+        text-align: left;
+    }
+
+    a {
+        color: silver;
+        margin: 5px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: darkslategray;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #container1 {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    #container2 {
+        margin: 10px auto;
+        text-align: center;
+        color: silver;
+        font-style: italic;
+        font-size: xx-large;
+    }
+
+    label,
+    input,
+    button {
+        display: inline-block;
+        margin: 20px;
+        font-weight: bolder;
+        height: 30px;
+        width: 300px;
+    }
+
+    label {
+        font-size: xx-large;
+        text-align: right;
+        color: darkseagreen;
+    }
+
+    button {
+        background-color: darkseagreen;
+    }
+
+    #divxx img {
+        width: 200px;
+        height: 200px;
+        padding: 0px 0px 0px 110px
+    }
+
+    p {
+        white-space: pre-line;
+    }
+
+    #movieT {
+        font-size: larger;
+        font-style: italic;
+        background-color: chocolate;
+    }
+
+    #divxx {
+        display: flex;
+        width: 800px;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+        color: silver;
+        margin: auto;
+
+    }
+
+    #divxx div {
+        flex-basis: 50%;
+        padding: 10px;
+    }
+
+    #divxx div:nth-of-type(2) {
+        text-align: left;
+    }
+
+    a {
+        color: silver;
+        margin: 5px;
+    }
+}

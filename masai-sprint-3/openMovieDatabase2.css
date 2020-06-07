@@ -1,0 +1,398 @@
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: aliceblue;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    #container1,
+    #container2,
+    #container3,
+    #container4 {
+        margin: auto;
+        background-color: blanchedalmond;
+        width: 600px;
+        padding: 10px;
+        color: black;
+        text-align: center;
+        border-bottom: 1px solid gray;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    #container2 {
+        text-align: left;
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'title title title title'
+            'year year genre genre'
+            'runtime runtime rated rated';
+    }
+
+    #item1 {
+        grid-area: title;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    #item2 {
+        grid-area: year;
+    }
+
+    #item3 {
+        grid-area: genre;
+    }
+
+    #item4 {
+        grid-area: runtime;
+    }
+
+    #item5 {
+        grid-area: rated;
+    }
+
+    #container3 {
+        text-align: left;
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'ratvalue1 ratvalue2'
+            'ratname1  ratname2';
+    }
+
+    #i1 {
+        grid-area: ratvalue1;
+        border-right: 1px solid gray;
+    }
+
+    #i2 {
+        grid-area: ratvalue2;
+    }
+
+    #i3 {
+        grid-area: ratname1;
+        border-right: 1px solid gray;
+    }
+
+    #i4 {
+        grid-area: ratname2;
+    }
+
+    #container4 {
+        text-align: left;
+        display: grid;
+        grid-gap: 10px;
+        padding: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'plot'
+            'release'
+            'director'
+            'writer'
+            'award'
+            'actor';
+    }
+
+    #list1 {
+        grid-area: release;
+    }
+
+    #list2 {
+        grid-area: director;
+    }
+
+    #list3 {
+        grid-area: writer;
+    }
+
+    #list4 {
+        grid-area: award;
+    }
+
+    #list5 {
+        grid-area: actor;
+    }
+
+    #list6 {
+        grid-area: plot;
+        border-bottom: 1px solid gray;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: aliceblue;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    #container1,
+    #container2,
+    #container3,
+    #container4 {
+        margin: auto;
+        background-color: blanchedalmond;
+        width: 600px;
+        padding: 10px;
+        color: black;
+        text-align: center;
+        border-bottom: 1px solid gray;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    #container2 {
+        text-align: left;
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'title title title title'
+            'year year genre genre'
+            'runtime runtime rated rated';
+    }
+
+    #item1 {
+        grid-area: title;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    #item2 {
+        grid-area: year;
+    }
+
+    #item3 {
+        grid-area: genre;
+    }
+
+    #item4 {
+        grid-area: runtime;
+    }
+
+    #item5 {
+        grid-area: rated;
+    }
+
+    #container3 {
+        text-align: left;
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'ratvalue1 ratvalue2'
+            'ratname1  ratname2';
+    }
+
+    #i1 {
+        grid-area: ratvalue1;
+        border-right: 1px solid gray;
+    }
+
+    #i2 {
+        grid-area: ratvalue2;
+    }
+
+    #i3 {
+        grid-area: ratname1;
+        border-right: 1px solid gray;
+    }
+
+    #i4 {
+        grid-area: ratname2;
+    }
+
+    #container4 {
+        text-align: left;
+        display: grid;
+        grid-gap: 10px;
+        padding: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'plot'
+            'release'
+            'director'
+            'writer'
+            'award'
+            'actor';
+    }
+
+    #list1 {
+        grid-area: release;
+    }
+
+    #list2 {
+        grid-area: director;
+    }
+
+    #list3 {
+        grid-area: writer;
+    }
+
+    #list4 {
+        grid-area: award;
+    }
+
+    #list5 {
+        grid-area: actor;
+    }
+
+    #list6 {
+        grid-area: plot;
+        border-bottom: 1px solid gray;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: aliceblue;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    #container1,
+    #container2,
+    #container3,
+    #container4 {
+        margin: auto;
+        background-color: blanchedalmond;
+        width: 600px;
+        padding: 10px;
+        color: black;
+        text-align: center;
+        border-bottom: 1px solid gray;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    #container2 {
+        text-align: left;
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'title title title title'
+            'year year genre genre'
+            'runtime runtime rated rated';
+    }
+
+    #item1 {
+        grid-area: title;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    #item2 {
+        grid-area: year;
+    }
+
+    #item3 {
+        grid-area: genre;
+    }
+
+    #item4 {
+        grid-area: runtime;
+    }
+
+    #item5 {
+        grid-area: rated;
+    }
+
+    #container3 {
+        text-align: left;
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'ratvalue1 ratvalue2'
+            'ratname1  ratname2';
+    }
+
+    #i1 {
+        grid-area: ratvalue1;
+        border-right: 1px solid gray;
+    }
+
+    #i2 {
+        grid-area: ratvalue2;
+    }
+
+    #i3 {
+        grid-area: ratname1;
+        border-right: 1px solid gray;
+    }
+
+    #i4 {
+        grid-area: ratname2;
+    }
+
+    #container4 {
+        text-align: left;
+        display: grid;
+        grid-gap: 10px;
+        padding: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'plot'
+            'release'
+            'director'
+            'writer'
+            'award'
+            'actor';
+    }
+
+    #list1 {
+        grid-area: release;
+    }
+
+    #list2 {
+        grid-area: director;
+    }
+
+    #list3 {
+        grid-area: writer;
+    }
+
+    #list4 {
+        grid-area: award;
+    }
+
+    #list5 {
+        grid-area: actor;
+    }
+
+    #list6 {
+        grid-area: plot;
+        border-bottom: 1px solid gray;
+    }
+
+}
